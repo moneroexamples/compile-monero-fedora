@@ -5,7 +5,7 @@ on Fedora 23 x86_64.
 ## Preparation
 Before proceeding to the compilation, the following packages are required:
 
- ```bash
+```bash
 # update the fodora
 sudo dnf update
 
@@ -13,9 +13,8 @@ sudo dnf update
 sudo dnf install git
 
 # install dependencies
-sudo dnf install make automake cmake gcc gcc-c++ boost-devel miniupnpc-devel graphviz doxygen unbound-devel libdb-5.3-devel graphiz
-
- ```
+sudo dnf install make automake cmake gcc gcc-c++ boost-devel miniupnpc-devel graphviz doxygen unbound-devel libdb-5.3-devel
+```
 
 ## Compilation
 Having the dependencies, we can download the current Monero version and compile it as follows:
@@ -31,7 +30,7 @@ cd bitmonero/
 # cmake . #  optional for configuration and checking what is available or missing
 make # or make -j number_of_threads, e.g., make -j 2
 ```
-## Instalation (optional)
+## Installation (optional)
 After successful compilation, the Monero binaries should be located in `./bin`
 
 I usually move the binaries into `/opt/bitmonero/` folder. This can be done
@@ -52,4 +51,14 @@ download the blockchain and synchronize itself with the Monero network. After th
 
 # launch the Monero wallet
 /opt/bitmonero/simplewallet
+```
+
+
+## How can you help?
+
+Constructive criticism, code and website edits are always good. They can be made through github.
+
+Some Monero are also welcome:
+```
+48daf1rG3hE1Txapcsxh6WXNe9MLNKtu7W7tKTivtSoVLHErYzvdcpea2nSTgGkz66RFP4GKVAsTV14v6G3oddBTHfxP6tU
 ```
