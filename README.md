@@ -13,7 +13,7 @@ sudo dnf update
 sudo dnf install git
 
 # install dependencies
-sudo dnf install make automake cmake gcc gcc-c++ boost-devel miniupnpc-devel graphviz doxygen unbound-devel libdb-5.3-devel
+sudo dnf install make automake cmake gcc gcc-c++ boost-devel miniupnpc-devel graphviz doxygen unbound-devel libdb-devel
 ```
 
 ## Compilation
