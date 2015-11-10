@@ -6,14 +6,11 @@ on Fedora 23 x86_64.
 Before proceeding to the compilation, the following packages are required:
 
 ```bash
-# update the fodora
-sudo dnf update
-
 #install git
 sudo dnf install git
 
 # install dependencies
-sudo dnf install make automake cmake gcc gcc-c++ boost-devel miniupnpc-devel graphviz doxygen unbound-devel libdb-devel
+sudo dnf install make automake cmake gcc-c++ boost-devel miniupnpc-devel graphviz doxygen unbound-devel libdb-devel
 ```
 
 ## Compilation
